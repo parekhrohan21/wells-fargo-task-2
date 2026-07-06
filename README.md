@@ -118,3 +118,25 @@ src/main/java/com/wellsfargo/counselor/
     ├── PortfolioSecurity.java
     └── Security.java
 ```
+
+---
+
+## How to Build and Run
+
+### Prerequisites
+- Java 21
+- Maven (wrapper `./mvnw` is included in the project)
+
+### Clean and Build
+To compile the project and build the JAR file:
+```bash
+./mvnw clean package
+```
+
+### Run the Application
+To run the Spring Boot application locally:
+```bash
+./mvnw spring-boot:run
+```
+Since the database configuration uses an in-memory H2 database, the application will spin up a transient database instance during runtime.
+
