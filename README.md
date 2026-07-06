@@ -1,6 +1,9 @@
 # Wells Fargo Task 2 — Financial Counselor API
 
+**Completed by Rohan**
+
 A Spring Boot application modelling the data layer for a financial counseling platform. Built with Spring Data JPA and an H2 in-memory database.
+
 
 
 ---
